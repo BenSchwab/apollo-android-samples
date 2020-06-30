@@ -19,6 +19,8 @@ dependencies {
     implementation("com.apollographql.apollo:apollo-runtime:2.2.1")
     implementation("com.apollographql.apollo:apollo-android-support:2.2.1")
     implementation("com.apollographql.apollo:apollo-coroutines-support:2.2.1")
+    implementation("androidx.sqlite:sqlite-framework:2.1.0")
+    implementation("com.squareup.sqldelight:android-driver:1.4.0")
 
     implementation("junit:junit:4.13")
 }

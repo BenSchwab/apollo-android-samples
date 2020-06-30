@@ -9,7 +9,8 @@ import kotlin.system.measureTimeMillis
 object Cache {
     fun plentyOfWrites(context: Context, iterations: Long) {
         val helper = ApolloSqlHelper(context, "cache-1-4")
-        val cache = SqlNormalizedCacheFactory(helper)
+        //val cache = SqlNormalizedCacheFactory(helper)
+        val cache = FixedSqlNormalizedCacheFactory(context)
 
         val client = ApolloClient.builder()
             .normalizedCache(cache)

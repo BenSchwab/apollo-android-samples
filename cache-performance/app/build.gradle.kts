@@ -18,8 +18,8 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.1.0")
 
     // Change here to test against 1.4 vs 2.2.1
-    implementation(project(":cache-1-4"))
-    //implementation(project(":cache-2-x"))
+    //implementation(project(":cache-1-4"))
+    implementation(project(":cache-2-x"))
 
     implementation("junit:junit:4.13")
 }
