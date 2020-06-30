@@ -10,7 +10,7 @@ class MainActivity: AppCompatActivity() {
 
         val start = System.currentTimeMillis()
 
-        Cache.plentyOfWrites(this, 100_000_000)
+        Cache.plentyOfWrites(this, 100)
         println("CachePerf: ${System.currentTimeMillis() - start} millis")
     }
 }
